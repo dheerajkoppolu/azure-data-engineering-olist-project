@@ -34,3 +34,7 @@ Raw ingestion from:
 ## 🚀 Deployment
 Synapse artifacts are version-controlled using GitHub integration.  
 Publish branch generates ARM templates for CI/CD deployment.
+
+## Architecture Diagram
+
+![Architecture](docs/Architecture.png)

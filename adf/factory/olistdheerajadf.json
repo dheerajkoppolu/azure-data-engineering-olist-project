@@ -1,0 +1,9 @@
+{
+	"name": "olistdheerajadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "41cace41-c9b1-443c-a06f-ecfd72a037dd",
+		"tenantId": "26ac1a33-a850-4efc-8a0f-0aca07675609"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "final serve",
+	"properties": {
+		"content": {
+			"query": "select * from gold.finaltable\n\nselect * from gold.final",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "olistdb",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

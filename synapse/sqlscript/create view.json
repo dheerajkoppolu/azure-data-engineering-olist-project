@@ -1,0 +1,17 @@
+{
+	"name": "create view",
+	"properties": {
+		"content": {
+			"query": "create schema gold\n--drop view gold.final\ncreate view gold.final \nas SELECT\n     *\nFROM\n    OPENROWSET(\n        BULK 'https://olistdheeraj.dfs.core.windows.net/olistdata/silver/',\n        FORMAT = 'PARQUET'\n    ) AS result1\n    where order_status='delivered'\n    select * from gold.final",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "olistdb",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

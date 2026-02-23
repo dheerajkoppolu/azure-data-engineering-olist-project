@@ -1,0 +1,17 @@
+{
+	"name": "sql on olistData",
+	"properties": {
+		"content": {
+			"query": "-- This is auto-generated code\nSELECT\n     *\nFROM\n    OPENROWSET(\n        BULK 'https://olistdheeraj.dfs.core.windows.net/olistdata/silver/',\n        FORMAT = 'PARQUET'\n    ) AS result1\n\n\n--https://olistdheeraj.blob.core.windows.net/olistdata/silver/part-00000-tid-5711385747019436403-159d5796-de1c-4080-94bb-d7a18eda6c66-94-1.c000.snappy.parquet",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "olistdb",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

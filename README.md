@@ -37,4 +37,4 @@ Publish branch generates ARM templates for CI/CD deployment.
 
 ## Architecture Diagram
 
-docs/Achitecture.png
+![Architecture Diagram](docs/Architecture.png)
